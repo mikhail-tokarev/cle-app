@@ -9,7 +9,7 @@ sylph_timeout: 720 # seconds approx
 # run on ios and android pools concurrently (for faster results)
 concurrent_runs: true
 
-pool_names:
+device_pools:
 
   - pool_name: android pool 1
     pool_type: android
@@ -31,7 +31,7 @@ test_suites:
     main: test_driver/main.dart
     tests:
       - test_driver/main_test.dart
-    device_pools:
+    pool_names:
       - android pool 1
       - ios pool 1
     job_timeout: 5 # minutes per each device run
