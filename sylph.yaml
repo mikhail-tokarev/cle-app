@@ -7,7 +7,7 @@ artifacts_dir: /tmp/sylph_artifacts
 # local timeout per device farm run
 sylph_timeout: 720 # seconds approx
 # run on ios and android pools concurrently (for faster results)
-concurrent_runs: true
+# concurrent_runs: true
 
 device_pools:
 
